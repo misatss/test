@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lead List</title>
+  <style>
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+    th { cursor: pointer; }
+  </style>
+</head>
+<body>
+  <input id="search" type="text" placeholder="Search leads..." />
+  <table id="lead-table">
+    <thead>
+      <tr>
+        <th data-key="name">Name</th>
+        <th data-key="email">Email</th>
+        <th data-key="phone">Phone</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+  <script src="app.js"></script>
+</body>
+</html>
